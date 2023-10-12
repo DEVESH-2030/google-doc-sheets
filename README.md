@@ -85,6 +85,18 @@
 - Run migration
 - please follow as:
 ```
+    composer install / update
+
+    composer dump-autoload
+
+    php artisan key:gemerate
+
+    php artisan optimize:clear
+
+    php artisan cache:clear
+
+    php artisan congig:clear
+
     php artisan migrate
 ```
 - I have used `users` to store my google sheet records
