@@ -1,3 +1,27 @@
+## Screenshots:
+
+![Alt text](image.png)
+
+### tooltip/Save Records
+- Save Records button does to save google sheet records in youd database on click
+![Alt text](image-1.png)
+
+- After click on Save Records button then response
+![Alt text](image-2.png)
+
+### Delete Button 
+- Delete is use to delete.remove the record from database (soft delete)  and you can see response message also
+- ![Alt text](image-3.png)
+
+### Pagination 
+- In pagination only 5 records will show per page (1st page)
+![Alt text](image-4.png)
+
+- 2nd page
+![Alt text](image-5.png)
+
+- New edit button is not working right now
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
