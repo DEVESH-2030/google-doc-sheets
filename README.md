@@ -2,6 +2,10 @@
 
 ## Screenshots:
 
+### google sheet
+![Uploading image.png…]()
+
+### web page
 ![Alt text](image.png)
 
 ### tooltip/Save Records
