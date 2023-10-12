@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "elegant-karma-401720",
+  "private_key_id": "db7c38b8869bfe2c087cc5143d69183ed624ae1f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDauRVCBNfaq2oE\nGWaI7ykzaAwxaydTnXah9ipleGxrt0a1sNqoEv4RwufRqlkbvik5JvqyLO+8+DGY\ntX2jb6Df+OckulgqgWrzsJAuY6l6TGUnwIUnZ8XtiD7opmOcYzMIim0NZf2Seeak\nQNpQzC3Jwf7juW4pOpznWuPqR/5qcOX9PZwnxG0qlHKX/guKm9a8HDPcY/b2AKs1\nJcaJeU1LxO5W07KF+6WKo0mCX4w5NSHYZWxvKYOnSUm/GtWo+eYh6mIc1RoAJDP3\n1vw2f0wLmfkn8vAXA8rAtMsdyP1wSaJQrmFcuz8NmyExePsy8fSl9k+yVCCrVOxD\ncHooAusfAgMBAAECggEAPUNPIX1CypRtrvVAY4V9iFER7TuiuchmpKnTKTXIRImC\nzDxbmm0rbeUmUnNA30Ttvfzdhk+Q3OC135yiMsd/C4znjUGGlW1HfDdNwziWDVPd\nl3tUsHtgFI6vdDG6v+CHOFKxhem10zPCtuoVXEE8aAEm+DkFkpXAwgqSwRnmOICf\nSePX740IhWc34jTBl9Chm8Hd+tMWz98C535UK2aeFLeUBCNwQ1q5+4e578XSnSBO\nAYtstlFGTnaa35KVt6XENJ5i4mTLUB8HgcBHWPL9ZUCDHfbTYS3Hc2uxT4tUu5PC\ndGF06BytZznKV8724rs0+yumh/bUCIVSn0uhVaVzeQKBgQDybRiMzQifyuKjNiM+\n/0MG7puI3oyjvBL5ZQFtPo8/oGi5/vrPZwkoVQQmzk1iwv9fjxY37p6zqnXzdKkn\nLpu1woLnWIUullfo0LDy4A8lQdcBYEJ7feXX9KpVJAFQvqc3fIn/Cp9PSEvhVXil\n811P1Jea9FZ4fh0a9Wn90kUJ6QKBgQDm+DqfeVh08WnCz5ucxzpcltzKwD2YpmyJ\nZb6eCUtVhYP0Tpg8Hsl4G8381wl2EyxrlEGY4Aty4XUtBaYirEYiVm29xD1uZwLS\nGP1I69uit0xhOealFp1tWEesc9cqLKb/hOUn4s/RrTVJuYzkZP1R06tQzazTbOIz\ndk/VOt0fxwKBgB2qpBp27NtBJML8WQvYiQdMI9R4B5Xx6hCC/82yni0XIDnCrka7\nQS+iV8O381hmrIGxLPLjTKCH9683U4vr9Dol94cAGiw9Uby37S+Lo87XY8xTT091\ndK8czctlgJO1ARmVL/35+szk+AQ3RXBpe73NMlBQHlTYeg9WgQYCuVghAoGBAJQm\nQswJ9MBGHXWU3xbH/9pl9kei2Z+xmErlVUhfY8/+bS5mv2VIxifhhdYZRHtVPxfe\nJ9lcVFui3Bs91VvGLtJVp9yiJFlNf9StrMF6cA5GDpsKnbPk9qOtjYPDZg8qRw/8\n+VQFOxIeTOD2QLY7RPWYlPmmg6W14L3rtLdsI2v/AoGBAIZ1Pr1gOCrmZNJbGV8m\nf4L+25LqQXVlgIBn2ZjH2OUoOzqXN6VGL3wcpJNwxoTX73xZXmA5YKXxWFZNyA+T\nBY99Nz0bQceSXa4QtaPR391bQJl6KpKXvXuv4WOGj7Xj2XDpuOgpO9qPksDTI/v8\nqfhreqhv12L1T27BU0JO+0XU\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-sheet@elegant-karma-401720.iam.gserviceaccount.com",
+  "client_id": "103348571869804377451",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-sheet%40elegant-karma-401720.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
