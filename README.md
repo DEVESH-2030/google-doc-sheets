@@ -37,37 +37,46 @@
 
 ## Setup Google Doc Sheet 
 
-1. Created a laravel project as: google-doc-sheet 
-2. Generated laravel key: php artisan key:generate
-3. Modify the users table migration file as: first_name, last_name, and email
-4. Run laravel migration command
-5. Install google apiclient: composer require google/apiclient
-6. Install: composer require guzzlehttp/guzzle
-7. Go to google cloud 
-	. API & Services page
-	. click on Enable APIs and services (google sheet, google Drive)
-	. Open API Library page then I have selecte Google Sheet API option
-	. Do Google sheet enable option
+- Created a laravel project as: google-doc-sheet 
+- Generated laravel key: php artisan key:generate
+- Modify the users table migration file as: first_name, last_name, and email
+- Run laravel migration command
+- Install google apiclient: composer require google/apiclient
+- Install: composer require guzzlehttp/guzzle
 
-8. Go to Create Credential of google sheet
-	1. Select in drop down Google Sheet API
-	2. I choose User data
-	3. Proceed to Next
-	4. OAuth Consent Screen
-		1. Set App name
-		2. Give user csupport email: bit.devesh2030@gmail.com
-		3. Save and continue
+### Go to google cloud 
+- API & Services page
+- click on Enable APIs and services (google sheet, google Drive)
+- Open API Library page then I have selecte Google Sheet API option
+- Do Google sheet enable option
 
-9. Install google sheet package 
-	1. composer require revolution/laravel-google-sheets
-    2. Set up google credential like Client id, client secret key
-    3. Set Google Servie enable as true
-    5. Set credential in config/google file
-    6. I have created a vertual host to run this project, because i am using docker in my system
+### Go to Create Credential of google sheet
+- Select in drop down Google Sheet API
+- I choose User data
+- Proceed to Next
+
+### OAuth Consent Screen
+- Set App name
+- Give user csupport email: bit.devesh2030@gmail.com
+- Save and continue
+
+### Install google sheet package 
+- follpw 
+```
+    composer require revolution/laravel-google-sheets
+```
+- Set up google credential like Client id, client secret key
+- Set Google Servie enable as true
+- Set credential in config/google file
+- I have created a vertual host to run this project, because i am using docker in my system
 	
-10. set configuration file : php artisan vendor:publish --tag="google-config"
-11. After the all setup then start the implementation of code
-12. Added Tooltip on button using bootstrap 5
+### set configuration file : 
+- follow as: 
+    ```
+    php artisan vendor:publish --tag="google-config" 
+    ```
+# After the all setup then start the implementation of code
+# Added Tooltip on button using bootstrap 5
 
 ### Database setup
 - Created a database as `google_sheet`
