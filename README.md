@@ -107,7 +107,12 @@
 - Added pagination by using $user->links()
 - Bind Paginator bootstrap fine in AppService Provider file
 
+### Used Service/ Repository pattern
+- Created Internal servies
+- created external services
+- create model based repository file and base repository file
 
+  
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
