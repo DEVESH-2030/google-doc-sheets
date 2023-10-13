@@ -40,7 +40,52 @@
 
 
 
+## Installation of Laravel and Google sheet
+- Create a laravel project using this command
+```
+    - Laravel project
+    composer create-project laravel/laravel google-doc-sheets
 
+    - google sheet package
+    composer require revolution/laravel-google-sheets
+```
+
+- Run php artisan vendor:publish --tag="google-config" to publish the google config file
+```
+    - config/google.php
+
+    - OAuth
+    'client_id'        => env('GOOGLE_CLIENT_ID', ''),
+    'client_secret'    => env('GOOGLE_CLIENT_SECRET', ''),
+    'redirect_uri'     => env('GOOGLE_REDIRECT', ''),
+    'scopes'           => [\Google\Service\Sheets::DRIVE, \Google\Service\Sheets::SPREADSHEETS],
+    'access_type'      => 'online',
+    'approval_prompt'  => 'auto',
+    'prompt'           => 'consent', //"none", "consent", "select_account" default:none
+```
+
+### or Service Account
+- 'file'    => storage_path('credentials.json'),
+- 'enable'  => env('GOOGLE_SERVICE_ENABLED', true),
+
+### Get API Credentials from https://developers.google.com/console
+- Enable Google Sheets API, Google Drive API.
+
+### Configure .env as needed
+```
+    GOOGLE_API_KEY=
+    GOOGLE_REDIRECT=
+    GOOGLE_SHEET_ID=
+    GOOGLE_CLIENT_ID=
+    GOOGLE_CLIENT_SECRET=
+    GOOGLE_DEVELOPER_KEY=
+    GOOGLE_SERVICE_ENABLED=
+    GOOGLE_APPLICATION_NAME=
+    GOOGLE_SERVICE_ACCOUNT_JSON_LOCATION=
+
+```
+
+- Then go to google sheet and create a sheet with some records as well
 
 ## Setup Google Doc Sheet 
 
