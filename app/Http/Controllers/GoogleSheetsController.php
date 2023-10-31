@@ -79,4 +79,10 @@ class GoogleSheetsController extends Controller
 
         return back()->with(['success' => 'Deleted record successfully.']);
     }
+
+    public function createSheet(Request $request)
+    {
+        dd($request->all());
+        // return view($this->view . 'create-sheet');
+    }
 }

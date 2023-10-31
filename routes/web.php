@@ -18,4 +18,10 @@ Route::prefix('manage-sheets')->group(function () {
     Route::get('/create', [App\Http\Controllers\GoogleSheetsController::class, 'create'])->name('create');
     Route::get('/edit/{user}', [App\Http\Controllers\GoogleSheetsController::class, 'edit'])->name('edit');
     Route::get('/delete/{user}', [App\Http\Controllers\GoogleSheetsController::class, 'destroy'])->name('delete');
+    Route::get('/create-sheet', [App\Http\Controllers\GoogleSheetsController::class, 'createSheet'] )->name('create-sheet');
+});
+
+
+Route::get('/', function () {
+   return view('welcome');
 });
